@@ -1,0 +1,282 @@
+{
+    "title": "Descubra traços de  sua personalidade",
+    "personalidades": [
+        {
+            "personalidade": "Pessoas com essa personalidade são geralmente tranquilas e introspectivas. Elas valorizam a paz interior, a harmonia e a estabilidade emocional. Tendem a ser observadoras e se sentem à vontade em ambientes calmos e naturais. São excelentes ouvintes e apreciam a meditação, a natureza e a espiritualidade.",
+            "score": [10, 20]
+        },
+        {
+            "personalidade": "Indivíduos com esta personalidade são aventureiros e espontâneos. Valorizam experiências emocionantes e estão dispostos a correr riscos. São extrovertidos, adoram conhecer pessoas novas e aproveitar a vida ao máximo. Frequentemente buscam aventuras, viagens e novas experiências.",
+            "score": [21, 30]
+        },
+        {
+            "personalidade": "Pessoas com com essa personalidade são organizadas, lógicas e intelectuais. Valorizam o crescimento pessoal, a aprendizagem e a resolução de problemas. São pensadores analíticos e excelentes solucionadores de problemas. Preferem ambientes tranquilos e gostam de ler, escrever e aprender.",
+            "score": [31, 40]
+        },{
+            "personalidade": "Indivíduos com esta personalidade são sociais e extrovertidos. Valorizam a diversão, o entretenimento e a interação social. São conhecidos por seu senso de humor e adoram estar com amigos e familiares. Tendem a ser otimistas e procuram o lado positivo da vida.",
+            "score": [41, 50]
+        }
+    ],
+    "questions": [
+        {
+            "id": 1,
+            "question": "Qual é a sua atividade favorita em um dia ensolarado?",
+            "options":[
+                {
+                    "id": 11,
+                    "name": "Caminhar na natureza",
+                    "score": 1
+                },
+                {
+                    "id": 12,
+                    "name": "Relaxar na praia",
+                    "score": 2
+                },
+                {
+                    "id": 13,
+                    "name": "Ler um livro em casa",
+                    "score": 3
+                },
+                {
+                    "id": 14,
+                    "name": "Sair para um evento social",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "O que você valoriza mais em um relacionamento?",
+            "options":[
+                {
+                    "id": 21,
+                    "name": "Companheirismo",
+                    "score": 1
+                },
+                {
+                    "id": 22,
+                    "name": "Comunicação aberta",
+                    "score": 2
+                },
+                {
+                    "id": 23,
+                    "name": "Independência",
+                    "score": 3
+                },
+                {
+                    "id": 24,
+                    "name": "Diversão",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Qual é a sua abordagem ao lidar com desafios?",
+            "options":[
+                {
+                    "id": 31,
+                    "name": "Analisar cuidadosamente as opções",
+                    "score": 1
+                },
+                {
+                    "id": 32,
+                    "name": "Confiar na intuição",
+                    "score": 2
+                },
+                {
+                    "id": 33,
+                    "name": "Resolver de maneira lógica",
+                    "score": 3
+                },
+                {
+                    "id": 34,
+                    "name": "Seguir o coração",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Como você lida com o estresse?",
+            "options":[
+                {
+                    "id": 41,
+                    "name": "Praticar meditação ou ioga",
+                    "score": 1
+                },
+                {
+                    "id": 42,
+                    "name": "Relaxar com amigos e familiares",
+                    "score": 2
+                },
+                {
+                    "id": 43,
+                    "name": "Focar em soluções práticas",
+                    "score": 3
+                },
+                {
+                    "id": 44,
+                    "name": "Procurar atividades divertidas",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Qual ambiente você prefere?",
+            "options":[
+                {
+                    "id": 51,
+                    "name": "Ao ar livre, na natureza",
+                    "score": 1
+                },
+                {
+                    "id": 52,
+                    "name": "Perto do oceano",
+                    "score": 2
+                },
+                {
+                    "id": 53,
+                    "name": "Em casa, em um espaço tranquilo",
+                    "score": 3
+                },
+                {
+                    "id": 54,
+                    "name": "Em locais movimentados",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "Qual é o seu hobby favorito?",
+            "options":[
+                {
+                    "id": 61,
+                    "name": "Explorar a natureza",
+                    "score": 1
+                },
+                {
+                    "id": 62,
+                    "name": "Praticar esportes aquáticos",
+                    "score": 2
+                },
+                {
+                    "id": 63,
+                    "name": "Ler e escrever",
+                    "score": 3
+                },
+                {
+                    "id": 64,
+                    "name": "Participar de eventos sociais",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Como você lida com mudanças inesperadas?",
+            "options":[
+                {
+                    "id": 71,
+                    "name": "Adapto-me com flexibilidade",
+                    "score": 1
+                },
+                {
+                    "id": 72,
+                    "name": "Foco em superar desafios",
+                    "score": 2
+                },
+                {
+                    "id": 73,
+                    "name": "Preciso de tempo para me adaptar",
+                    "score": 3
+                },
+                {
+                    "id": 74,
+                    "name": "Procuro o lado positivo",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "question": "O que você mais valoriza em um amigo?",
+            "options":[
+                {
+                    "id": 81,
+                    "name": "Lealdade",
+                    "score": 1
+                },
+                {
+                    "id": 82,
+                    "name": "Companheirismo",
+                    "score": 2
+                },
+                {
+                    "id": 83,
+                    "name": "Intelecto",
+                    "score": 3
+                },
+                {
+                    "id": 84,
+                    "name": "Senso de humor",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "question": "Como você descreveria seu estilo de vida?",
+            "options":[
+                {
+                    "id": 91,
+                    "name": "Saudável e equilibrado",
+                    "score": 1
+                },
+                {
+                    "id": 92,
+                    "name": "Espontâneo e aventureiro",
+                    "score": 2
+                },
+                {
+                    "id": 93,
+                    "name": "Organizado e reflexivo",
+                    "score": 3
+                },
+                {
+                    "id": 94,
+                    "name": "Social e animado",
+                    "score": 4
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "question": "O que você busca alcançar na vida?",
+            "options":[
+                {
+                    "id": 101,
+                    "name": "Paz interior e harmonia",
+                    "score": 1
+                },
+                {
+                    "id": 102,
+                    "name": "Experiências emocionantes",
+                    "score": 2
+                },
+                {
+                    "id": 103,
+                    "name": "Crescimento pessoal",
+                    "score": 3
+                },
+                {
+                    "id": 104,
+                    "name": "Felicidade e diversão",
+                    "score": 4
+                }
+            ]
+        }
+    ]
+}

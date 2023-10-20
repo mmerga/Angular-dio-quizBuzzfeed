@@ -1,0 +1,14 @@
+.question-container{
+    width: 100%;
+    /* order: 2px solid red; */
+    margin-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.question-question{
+    font-size: 1.5rem;
+}
+
+hr{
+    color: red
+}

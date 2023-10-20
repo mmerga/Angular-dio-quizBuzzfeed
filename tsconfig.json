@@ -4,6 +4,8 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
+    "resolveJsonModule": true, // Needed for read json files
+    "allowSyntheticDefaultImports": true, // Needed for read json files
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitOverride": true,

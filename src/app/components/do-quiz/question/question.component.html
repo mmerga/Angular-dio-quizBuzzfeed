@@ -1,0 +1,10 @@
+<div class="question-container">
+    <div class="question-question">
+        {{question.question}}
+    </div>
+    <app-question-button 
+        [option]="question.options"
+        [handleNextQuestion]="handleNextQuestion"
+    >
+    </app-question-button>
+</div>

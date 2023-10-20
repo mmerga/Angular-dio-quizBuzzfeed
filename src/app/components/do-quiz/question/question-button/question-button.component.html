@@ -1,0 +1,9 @@
+<div class="button-container">
+    <button 
+        *ngFor="let item of option"
+        (click)="handleNextQuestion(item.score)"
+        id="{{item.id}}"
+    >
+    {{item.name}}
+    </button>
+</div>
