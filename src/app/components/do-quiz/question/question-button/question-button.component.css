@@ -7,6 +7,7 @@
 }
 
 button{
+    min-width: 100%;
     font-size: 1.2rem;
     padding: 0.6em 1.3em;
     border-radius: 10px;
@@ -29,4 +30,10 @@ button:hover{
 button:active{
     background-color: #1f1f1f;
     color: whitesmoke;
+}
+
+@media(max-width: 425px){
+    .button-container{
+        grid-template-columns: 1fr;
+    }
 }

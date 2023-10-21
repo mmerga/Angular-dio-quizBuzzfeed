@@ -1,0 +1,38 @@
+.result-container{
+    width: 80%;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+span{
+    padding: 1rem;
+    display: block;
+    box-shadow: 0 0px 3px 3px #1f1f1f;
+}
+
+a{
+    display: block;
+    font-size: 2rem;
+    margin-top: 3rem;
+    text-align: end;
+    transition: transform 0.3s ease-in-out;
+}
+
+a:hover,
+a:focus, 
+a:active{
+    color: whitesmoke;
+}
+
+a:hover{
+    transform: scale(0.95);
+}
+
+@media(max-width: 425px){
+    .result-container{
+        width: 95%;
+    }
+}

@@ -1,9 +1,9 @@
 <div class="button-container">
     <button 
         *ngFor="let item of option"
-        (click)="handleNextQuestion(item.score)"
         id="{{item.id}}"
-    >
-    {{item.name}}
+        (click)="handleNextQuestion(item.score)"
+        >
+        {{item.name}}
     </button>
 </div>

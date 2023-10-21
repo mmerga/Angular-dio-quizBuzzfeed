@@ -12,6 +12,7 @@ import { DoQuizComponent } from './components/do-quiz/do-quiz.component';
 import { TitleComponent } from './components/do-quiz/title/title.component';
 import { QuestionComponent } from './components/do-quiz/question/question.component';
 import { QuestionButtonComponent } from './components/do-quiz/question/question-button/question-button.component';
+import { ResultComponent } from './components/do-quiz/result/result.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { QuestionButtonComponent } from './components/do-quiz/question/question-
     TitleComponent,
     QuestionComponent,
     QuestionButtonComponent,
+    ResultComponent,
   ],
   imports: [
     BrowserModule,

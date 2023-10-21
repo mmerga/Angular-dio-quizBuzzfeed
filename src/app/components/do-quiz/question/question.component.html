@@ -4,7 +4,7 @@
     </div>
     <app-question-button 
         [option]="question.options"
-        [handleNextQuestion]="handleNextQuestion"
+        (handleNextQuestionEvent)="handleNextQuestion($event)"
     >
     </app-question-button>
 </div>

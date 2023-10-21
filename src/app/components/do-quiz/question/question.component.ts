@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Output, EventEmitter } from '@angular/core';
 import { Question } from '../../../../environments/environment.prod'
 
 @Component({
@@ -8,8 +9,12 @@ import { Question } from '../../../../environments/environment.prod'
 })
 export class QuestionComponent implements OnInit {
 
-  @Input()
-  handleNextQuestion(score: number){}
+  @Output() handleNextQuestionEvent = new EventEmitter<number>();
+
+  handleNextQuestion(value: number) {
+    this.handleNextQuestionEvent.emit(value);
+  }
+
   @Input()
   question: Question  = {id: 1, question: '', options: [{id:1, name: '', score: 1}]}
 

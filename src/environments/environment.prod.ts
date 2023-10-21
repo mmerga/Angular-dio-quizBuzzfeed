@@ -16,7 +16,7 @@ export type Question = {
 
 export type Personalidade = {
   personalidade: string, 
-  score: [number, number]
+  score: Array<number>
 }
 
 export type Quiz = {

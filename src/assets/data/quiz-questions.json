@@ -12,7 +12,8 @@
         {
             "personalidade": "Pessoas com com essa personalidade são organizadas, lógicas e intelectuais. Valorizam o crescimento pessoal, a aprendizagem e a resolução de problemas. São pensadores analíticos e excelentes solucionadores de problemas. Preferem ambientes tranquilos e gostam de ler, escrever e aprender.",
             "score": [31, 40]
-        },{
+        },
+        {
             "personalidade": "Indivíduos com esta personalidade são sociais e extrovertidos. Valorizam a diversão, o entretenimento e a interação social. São conhecidos por seu senso de humor e adoram estar com amigos e familiares. Tendem a ser otimistas e procuram o lado positivo da vida.",
             "score": [41, 50]
         }

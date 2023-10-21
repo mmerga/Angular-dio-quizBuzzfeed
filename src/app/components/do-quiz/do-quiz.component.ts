@@ -15,6 +15,9 @@ export class DoQuizComponent implements OnInit {
   currentQuestionIndex: number 
   maxIndex: number 
   totalScore: number 
+  personalidades: Array<Personalidade>
+  result: Personalidade
+  isResult: boolean
 
   constructor() {
     this.title = ''
@@ -23,6 +26,9 @@ export class DoQuizComponent implements OnInit {
     this.currentQuestionIndex = 0
     this.maxIndex = 0
     this.totalScore = 0
+    this.personalidades = [{personalidade: '', score: [0, 0]}]
+    this.result = {personalidade: '', score: [0, 0]}
+    this.isResult = false
   }
   
   ngOnInit(): void {
@@ -33,27 +39,36 @@ export class DoQuizComponent implements OnInit {
       this.currentQuestion = this.questions[this.currentQuestionIndex]
       this.maxIndex = this.questions.length
       this.totalScore = 0
+      this.personalidades = [{personalidade: '', score: [0, 0]}]
+      this.result = {personalidade: '', score: [0, 0]}
+      this.isResult = false
     }else{
       this.title = 'Sorry, could not find the quiz, something went wrong'
     }
   }
   
   handleNextQuestion(score: number){
-    console.log(this.maxIndex)
-    //this.currentQuestion = this.questions[2]
-    this.NextQuestion(score)
+    this.totalScore += score
+    this.nextQuestion()
   }
   
-  async NextQuestion(score: number){
-    
+  async nextQuestion(){
     this.currentQuestionIndex += 1
     if(this.currentQuestionIndex >= this.maxIndex){
-      this.title = 'acabou'
-      // handleResult
+      this.title = this.totalScore.toString()
+      await this.handleResult()
+      this.isResult = true
     }else{
-      this.currentQuestion =  this.questions[1]
-      this.totalScore += score
+      this.currentQuestion =  this.questions[this.currentQuestionIndex]
     }
   }
 
+  async handleResult(){
+    this.personalidades = [...quiz.personalidades]
+    this.personalidades.forEach( item => {
+      if(this.totalScore >= item.score[0] && this.totalScore <= item.score[1]){
+        this.result = item;
+      }
+    })
+  }
 }
